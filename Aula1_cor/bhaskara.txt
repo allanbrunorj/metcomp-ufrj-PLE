@@ -1,0 +1,16 @@
+# Sandra: 
+# escrever explicitamente: Ler os coeficientes a, b, c
+# Faltou parenthesis no denominador (2*a)
+# escrever o que vai ser impresso 
+# separar os caos em que delta ==0, pois nao precisa calcular as duas raizes
+# 2
+Programa cálcular Bhaskara:
+Equação ax² + bx + c = 0;
+
+Calcular b² - 4*a*c e armazenar como delta;
+Se delta < zero:
+	Aborta o programa(Não possui raízes reais)
+
+
+Calcular (-b + raiz(delta))/2*a e armazenar como raiz1;
+Calcular (-b - raiz(delta))2*a e armazenar como raiz2;
